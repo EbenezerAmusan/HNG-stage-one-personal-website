@@ -5,11 +5,13 @@ body {
   padding: 0;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #f0f0f0;
 }
 
 #container {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
   text-align: center;
   padding: 20px;
   background: #fff;
@@ -28,10 +30,24 @@ a:hover {
 
 img {
   height: auto;
-  max-width: 25%;
-  margin: 20px 0;
+  max-width: 12.5%;
+  margin: 10px 0;
   border-radius: 50%;
   border: 3px solid #fff;
+}
+
+.goals{
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.goals h2{
+  margin-top: 0;
+}
+
+.goals p{
+line-height: 1.5;
 }
 
 @media(max-width:768px) {
@@ -39,3 +55,4 @@ img {
         margin: 0 50px;
     }
 }
+
