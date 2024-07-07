@@ -20,12 +20,4 @@ document.addEventListener("DOMContentLoaded", () => {
     "Saturday",
   ];
   currentDayElement.textContent = days[new Date().getUTCDay()];
-
-//   const profilePicture = document.getElementById('profilePicture');
-//   const setProfilePictureDimensions = () => {
-//     profilePicture.width = profilePicture.naturalWidth;
-//     profilePicture.heigth = profilePicture.naturalHeight;
-//   };
-
-  profilePicture.onload = setProfilePictureDimensions;
 });
